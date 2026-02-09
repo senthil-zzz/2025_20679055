@@ -1,0 +1,15 @@
+git init - The git init command creates a new Git repository.
+
+status - The git status command displays the state of the working directory and the staging area.
+
+add - The git add command adds a change in the working directory to the staging area.
+
+commit - The git commit command captures a snapshot of the project's currently staged changes.
+
+checkout - The git checkout command lets you navigate between the branches created by git branch.
+
+log - The git log command lists the commits made in that repository in reverse chronological order.
+
+show - The git-show command is a very versatile command for examining objects in a Git repo.
+
+reset - The git reset 's function is to take the current branch and reset it to point somewhere else, and possibly bring the index and work tree along.
