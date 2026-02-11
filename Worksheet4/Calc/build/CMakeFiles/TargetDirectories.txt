@@ -1,0 +1,4 @@
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet4/Calc/build/CMakeFiles/maths.dir
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet4/Calc/build/CMakeFiles/calc.dir
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet4/Calc/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet4/Calc/build/CMakeFiles/ZERO_CHECK.dir

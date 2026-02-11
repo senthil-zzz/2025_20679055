@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet4\hello_cmake\build\CMakeFiles\d451d4f2d092edf07e7b806c37aab68d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FA38E9C3-0406-375F-9B62-3C9DD0748E12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
