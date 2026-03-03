@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\CMakeFiles\3c29aa9b21d28e07f760eff314b217a0\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD2BCEE1-CB7A-3D24-A6FC-930EE5891523}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

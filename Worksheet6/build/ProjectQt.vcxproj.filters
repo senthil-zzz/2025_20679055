@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\ModelPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\ModelPartList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\optiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\EWIEGA46WW_Debug\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\EWIEGA46WW_Debug\qrc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\EWIEGA46WW_Release\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\EWIEGA46WW_Release\qrc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\EWIEGA46WW_MinSizeRel\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\EWIEGA46WW_MinSizeRel\qrc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\EWIEGA46WW_RelWithDebInfo\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\EWIEGA46WW_RelWithDebInfo\qrc_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\ModelPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\ModelPartList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\include_Debug\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\include_Release\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\include_MinSizeRel\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\include_RelWithDebInfo\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\CMakeFiles\4675db9949ef854a90cbbf7d038d395d\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\CMakeFiles\18b3be28aeca93025a7beca7134f9af9\qrc_icons.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\CMakeFiles\18b3be28aeca93025a7beca7134f9af9\qrc_settings.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\mainwindow.ui" />
+    <None Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\optiondialog.ui" />
+    <None Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\icons.qrc" />
+    <None Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\ProjectQt\settings.qrc" />
+    <None Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\autouic_Debug.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\autouic_Release.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\autouic_MinSizeRel.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="C:\Users\blaze\Desktop\github\2025_20679055\Worksheet6\build\ProjectQt_autogen\autouic_RelWithDebInfo.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD2BCEE1-CB7A-3D24-A6FC-930EE5891523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7F60D1A4-0D0C-32C2-B8FE-C9251CD94FDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F86F6AFA-326C-3951-B160-FF0B2526AAB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{C937F405-BEE8-3DE1-8B9A-0BEA1D17F73E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

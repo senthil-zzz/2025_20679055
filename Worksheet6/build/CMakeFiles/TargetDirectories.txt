@@ -1,0 +1,4 @@
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet6/build/CMakeFiles/ProjectQt.dir
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet6/build/CMakeFiles/INSTALL.dir
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet6/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet6/build/CMakeFiles/ZERO_CHECK.dir
