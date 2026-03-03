@@ -35,7 +35,6 @@ public:
     QVBoxLayout *verticalLayout;
     QHBoxLayout *horizontalLayout;
     QTreeView *treeView;
-    QWidget *widget;
     QHBoxLayout *horizontalLayout_2;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
@@ -78,24 +77,15 @@ public:
         horizontalLayout->setObjectName("horizontalLayout");
         treeView = new QTreeView(centralwidget);
         treeView->setObjectName("treeView");
-        QSizePolicy sizePolicy1(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Expanding);
+        QSizePolicy sizePolicy1(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(treeView->sizePolicy().hasHeightForWidth());
         treeView->setSizePolicy(sizePolicy1);
         treeView->setContextMenuPolicy(Qt::ContextMenuPolicy::ActionsContextMenu);
+        treeView->setVerticalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAlwaysOn);
 
         horizontalLayout->addWidget(treeView);
-
-        widget = new QWidget(centralwidget);
-        widget->setObjectName("widget");
-        QSizePolicy sizePolicy2(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Preferred);
-        sizePolicy2.setHorizontalStretch(0);
-        sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(widget->sizePolicy().hasHeightForWidth());
-        widget->setSizePolicy(sizePolicy2);
-
-        horizontalLayout->addWidget(widget);
 
 
         verticalLayout->addLayout(horizontalLayout);
@@ -129,11 +119,11 @@ public:
         MainWindow->setStatusBar(statusbar);
         toolBar = new QToolBar(MainWindow);
         toolBar->setObjectName("toolBar");
-        QSizePolicy sizePolicy3(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Fixed);
-        sizePolicy3.setHorizontalStretch(9);
-        sizePolicy3.setVerticalStretch(0);
-        sizePolicy3.setHeightForWidth(toolBar->sizePolicy().hasHeightForWidth());
-        toolBar->setSizePolicy(sizePolicy3);
+        QSizePolicy sizePolicy2(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Fixed);
+        sizePolicy2.setHorizontalStretch(9);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(toolBar->sizePolicy().hasHeightForWidth());
+        toolBar->setSizePolicy(sizePolicy2);
         MainWindow->addToolBar(Qt::ToolBarArea::TopToolBarArea, toolBar);
 
         toolBar->addAction(actionOpen_File);

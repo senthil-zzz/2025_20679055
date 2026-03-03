@@ -4,6 +4,7 @@
 #include <QMessageBox>
 #include <QFileDialog>
 #include <QFileInfo>
+#include <QHeaderView>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -78,9 +79,25 @@ void MainWindow::on_actionOpen_File_triggered()
         tr("STL Files (*.stl);;Text Files (*.txt)")
         );
 
-    // If the user didn't click cancel, show the name in the status bar
     if (!fileName.isEmpty()) {
         emit statusUpdateMessage(QString("Selected File: ") + fileName, 0);
+
+        QModelIndex index = ui->treeView->currentIndex();
+
+        if (!index.isValid()) {
+            // Warn user if part not selected
+            QMessageBox::warning(this, "Selection", "Please select a part in the tree first to assign this file to.");
+            return;
+        }
+        ModelPart *selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+        QFileInfo fileInfo(fileName);
+        QString shortFileName = fileInfo.fileName();
+
+        selectedPart->set(0, shortFileName);
+
+        partList->forceItemUpdate(index);
+
     }
 }
 
