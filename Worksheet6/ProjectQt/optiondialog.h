@@ -25,6 +25,8 @@ public:
 
     // Also add this to pre-fill the colors when the dialog opens
     void setColors(int r, int g, int b);
+    void setPartVisibility(bool visible) { ui->visibleCheck->setChecked(visible); }
+    bool isPartVisible() const { return ui->visibleCheck->isChecked(); }
 
 private:
     Ui::OptionDialog *ui;

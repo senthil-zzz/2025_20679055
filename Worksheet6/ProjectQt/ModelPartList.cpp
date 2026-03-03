@@ -32,14 +32,10 @@ int ModelPartList::columnCount( const QModelIndex& parent ) const {
 
 
 QVariant ModelPartList::data( const QModelIndex& index, int role ) const {
-    /* If the item index isnt valid, return a new, empty QVariant (QVariant is generic datatype
-     * that could be any valid QT class) */
+
     if( !index.isValid() )
         return QVariant();
 
-    /* Role represents what this data will be used for, we only need deal with the case
-     * when QT is asking for data to create and display the treeview. Return a new,
-     * empty QVariant if any other request comes through. */
     if (role != Qt::DisplayRole)
         return QVariant();
 
@@ -61,9 +57,10 @@ Qt::ItemFlags ModelPartList::flags( const QModelIndex& index ) const {
 
 
 QVariant ModelPartList::headerData( int section, Qt::Orientation orientation, int role ) const {
-    if( orientation == Qt::Horizontal && role == Qt::DisplayRole )
-        return rootItem->data( section );
-
+    if( orientation == Qt::Horizontal && role == Qt::DisplayRole ) {
+        if (section == 0) return QString("Part Name");
+        if (section == 1) return QString("Visibility");
+    }
     return QVariant();
 }
 
@@ -117,6 +114,10 @@ ModelPart* ModelPartList::getRootItem() {
     return rootItem; 
 }
 
+void ModelPartList::forceItemUpdate(const QModelIndex& index) {
+    // This tells the QTreeView to fetch the new text for this specific item
+    emit dataChanged(index, index);
+}
 
 
 QModelIndex ModelPartList::appendChild(QModelIndex& parent, const QList<QVariant>& data) {      

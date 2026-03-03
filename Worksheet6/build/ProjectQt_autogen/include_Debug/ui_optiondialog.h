@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QAbstractButton>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QFormLayout>
@@ -39,15 +40,17 @@ public:
     QLabel *label_2;
     QLabel *label_3;
     QLabel *label_4;
+    QCheckBox *visibleCheck;
 
     void setupUi(QDialog *OptionDialog)
     {
         if (OptionDialog->objectName().isEmpty())
             OptionDialog->setObjectName("OptionDialog");
-        OptionDialog->resize(400, 237);
+        OptionDialog->resize(400, 300);
+        OptionDialog->setMinimumSize(QSize(400, 300));
         buttonBox = new QDialogButtonBox(OptionDialog);
         buttonBox->setObjectName("buttonBox");
-        buttonBox->setGeometry(QRect(40, 200, 341, 32));
+        buttonBox->setGeometry(QRect(210, 200, 171, 32));
         buttonBox->setOrientation(Qt::Orientation::Horizontal);
         buttonBox->setStandardButtons(QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok);
         nameEdit = new QLineEdit(OptionDialog);
@@ -120,6 +123,16 @@ public:
         label_4 = new QLabel(OptionDialog);
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(10, 30, 81, 21));
+        visibleCheck = new QCheckBox(OptionDialog);
+        visibleCheck->setObjectName("visibleCheck");
+        visibleCheck->setGeometry(QRect(20, 210, 111, 17));
+        QSizePolicy sizePolicy1(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Fixed);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(visibleCheck->sizePolicy().hasHeightForWidth());
+        visibleCheck->setSizePolicy(sizePolicy1);
+        visibleCheck->setChecked(true);
+        visibleCheck->setTristate(false);
 
         retranslateUi(OptionDialog);
         QObject::connect(buttonBox, &QDialogButtonBox::accepted, OptionDialog, qOverload<>(&QDialog::accept));
@@ -135,6 +148,7 @@ public:
         label_2->setText(QCoreApplication::translate("OptionDialog", "G", nullptr));
         label_3->setText(QCoreApplication::translate("OptionDialog", "B", nullptr));
         label_4->setText(QCoreApplication::translate("OptionDialog", "Edit Name:", nullptr));
+        visibleCheck->setText(QCoreApplication::translate("OptionDialog", "Visible", nullptr));
     } // retranslateUi
 
 };

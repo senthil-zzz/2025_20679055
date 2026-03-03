@@ -133,9 +133,7 @@ private:
     QList<QVariant>                             m_itemData;         /**< List (array of column data for item */
     ModelPart*                                  m_parentItem;       /**< Pointer to parent */
 
-    /* These are some typical properties that I think the part will need, you might
-     * want to add you own.
-     */
+
     bool                                        isVisible;          /**< True/false to indicate if should be visible in model rendering */
     unsigned char colourR;
     unsigned char colourG;
