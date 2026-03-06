@@ -1,0 +1,4 @@
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet7/Exercise2/build/CMakeFiles/vtkexample_vr1.dir
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet7/Exercise2/build/CMakeFiles/VRBindings.dir
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet7/Exercise2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/blaze/Desktop/github/2025_20679055/Worksheet7/Exercise2/build/CMakeFiles/ZERO_CHECK.dir
